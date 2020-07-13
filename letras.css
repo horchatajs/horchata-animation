@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+.content-text {
+  position: fixed;
+  right: 555px;
+  bottom: 350px;
+}
+
+.content-text h1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-size: 6em;
+  margin-right: 900px;
+  margin-top: 20px;
+}
+
+.content-text h1:nth-child(1) {
+  color: black;
+  -webkit-text-stroke: 4px #000000;
+}
+
+.content-text h1:nth-child(2) {
+  color: #ffda1a;
+  animation: animate-text 1.5s ease-in-out infinite;
+}
+
+/* ANIMATION DE JUGO PARA LETRAS */
+@keyframes animate-text {
+  0%,
+  100% {
+    clip-path: polygon(
+      0 37%,
+      12% 37%,
+      25% 45%,
+      36% 52%,
+      57% 60%,
+      82% 53%,
+      100% 32%,
+      100% 100%,
+      0% 100%
+    );
+  }
+  50% {
+    clip-path: polygon(
+      0 55%,
+      17% 61%,
+      36% 64%,
+      51% 59%,
+      68% 45%,
+      84% 42%,
+      100% 43%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
