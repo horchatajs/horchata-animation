@@ -4,5 +4,5 @@
 
 ## Animación de horchataJS con CSS
 
-#### ¿Que se utilizo para la https://bennettfeely.com/clippy/? 
+#### ¿Que se utilizo para la animación? 
 https://bennettfeely.com/clippy/
