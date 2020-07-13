@@ -4,5 +4,8 @@
 
 ## Animación de horchataJS con CSS
 
+<p align="center"> Animación de horchataJS con <b>CSS</b></p>
+
+
 #### ¿Que se utilizo para la animación? 
 https://bennettfeely.com/clippy/
